@@ -1,0 +1,125 @@
+@import url("https://fonts.google.com/download?family=Smooch");
+@import url("https: //fonts.googleapis.com/css?family=Lora|Roboto");
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+
+
+body {
+  font-family: 'Avenir', serif;
+  font-size: 15px;
+  margin: 0px;
+}
+
+h1 {
+  font-family: "Smooch", sans-serif;
+  font-weight: bold;
+
+}
+
+h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin: px;
+}
+
+a {text-decoration: none;}
+
+@media (max-width: 770px) {
+  .container {
+    width: 600px;}
+}
+
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;}
+  
+}
+
+.banner{
+background-image:
+  linear-gradient(to bottom, rgba(230,230,0,0.5), rgba(0,0,230,0.5)),
+  url('handicapés.jpeg');
+padding: 150px 30px;
+background-size: cover;
+background-position: bottom;
+margin: 0px;
+}
+
+.banner h1{ 
+  font-size: 50px;
+  color: #78d1cc;
+}
+
+.banner h2 {
+  font-size: 30px;
+  font-weight: darker;
+  opacity: 0.8;
+  margin-bottom: 50px;
+  color: #78d1cc;
+}
+
+.avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 40px;
+
+}
+
+.btn-black{
+  background-color: #78d1cc;
+  color: white;
+  padding: 20px 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;  
+}
+
+.btn-black:hover{
+  background-color: #78d1cc;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+}
+
+.card{
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  margin: 18px;
+  flex-basis: 300px;
+  flex-grow: 1;
+}
+
+.card img {
+  width: 150px;
+  height: 110px;
+  border-radius: 9px;
+  margin: 20px;
+}
+
+.card h3 {
+  flex-grow: 1;
+  padding-left: 30px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+.container {
+width: 900px;
+margin: 100px auto;
+}
+
+
